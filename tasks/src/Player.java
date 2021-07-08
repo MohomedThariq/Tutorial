@@ -36,7 +36,7 @@ public class Player {
 
 
 
-    void displayPlayerDetails() {
+    public void displayPlayerDetails() {
         System.out.println("");
         System.out.println("Player Details -");
         System.out.println("");
