@@ -24,14 +24,16 @@ public class Player {
 
 	 double getAverage() {
 			double avg = playerStatistics / 15;
-			System.out.println("Average (over 15 matches): "+avg);
 			return avg;
 
 		}
 
 	String getPlayerType(){
-		System.out.println("Player Type: "+playerType);
 		return playerType;	
+	}
+	
+	String getPlayerName(){
+		return playerName;	
 	}
 
 	
@@ -39,10 +41,10 @@ public class Player {
 
     void displayPlayerDetails() {
         System.out.println("");
-        System.out.println("Player Details -");
         System.out.println("");
         System.out.println("Player Name: " + playerName);
         System.out.println("Player Age: " + playerAge);
+		System.out.println("Player Type: "+playerType);
         System.out.println("Player Statistics: " + playerStatistics);
         System.out.println("");
     }
