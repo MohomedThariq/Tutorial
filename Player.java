@@ -31,6 +31,10 @@ public class Player {
 	String getPlayerType(){
 		return playerType;	
 	}
+	
+	String getPlayerName(){
+		return playerName;	
+	}
 
 	
  
