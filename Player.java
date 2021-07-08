@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+
 
 public class Player {
     String playerName;
@@ -47,15 +47,6 @@ public class Player {
         System.out.println("");
     }
 
-   
-    // void withdrawMoney(double withdrawal) {
-        // if (withdrawal > PlayerBalance){
-            // System.out.println("Current balance is insufficient!");
-        // } else {
-            // PlayerBalance = PlayerBalance - withdrawal;
-            // System.out.println("New Balance is: " + PlayerBalance);
-        // }
-    // }
 
 
 }
